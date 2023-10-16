@@ -9,28 +9,71 @@
 /* Header rules */
 
 .row {
-    min-height: 100px;
-    margin: 20px 0;
+    min-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        /* debug */
+        background-color: aqua;
 }
 
 .nav-header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-content: center;
     padding: 10px 20px;
+    margin: 0 20px;
     
     /* debug */
-    background-color: aqua;
+    background-color: orange;
 
 }
 
 .nav-logo {
-    
+    margin-right: 20px;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
     list-style: none;
+    justify-content: space-between;
+    margin-right: 20px;
 }
 
+/* First main block */
+
+.main-block {
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+    /* debug */
+    background-color: blue;
+}
+
+.pink-block {
+    min-height: 300px;
+    width: calc(100% - 40%);
+
+    /* debug */
+    background-color: pink;
+    margin: 20px 0;
+
+}
+
+/* Repeated block */
+
+.repeated-block {
+    display: flex;
+    justify-content: center;
+    
+    /*debug*/
+    background-color: gray;
+    min-height: 300px;
+}
+
+.blue-block {
+    min-height: 300px;
+    width: calc(100% - 40%);
+}
