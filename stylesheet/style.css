@@ -64,16 +64,56 @@
 
 /* Repeated block */
 
-.repeated-block {
+.container {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     
     /*debug*/
     background-color: gray;
     min-height: 300px;
 }
 
-.blue-block {
+.block {
+    display: flex;
+    justify-content: center;
+    width: 100px;
     min-height: 300px;
-    width: calc(100% - 40%);
+
+    /*debug*/
+    margin: 20px 0;
+}
+
+.blue {
+    /*debug*/
+    
+    background-color: lightblue;
+}
+
+.red {
+    /*debug*/
+    background-color: red;
+}
+
+.second {
+    background-color: beige;
+}
+
+.green {
+    background-color: green;
+}
+
+.fourth {
+    background-color: lightgray;
+}
+
+.fifth {
+    background-color: lightblue;
+}
+
+.coral {
+    background-color: coral;
+}
+
+.aqua {
+    background-color: aquamarine;
 }
