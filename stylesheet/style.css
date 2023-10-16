@@ -15,6 +15,7 @@
     align-items: center;
         /* debug */
         background-color: aqua;
+
 }
 
 .nav-header {
@@ -23,7 +24,7 @@
     justify-content: center;
     align-content: center;
     padding: 10px 20px;
-    margin: 0 20px;
+    margin: 0 20%;
     
     /* debug */
     background-color: orange;
@@ -76,7 +77,7 @@
 .block {
     display: flex;
     justify-content: center;
-    width: 100px;
+    width: 300px;
     min-height: 300px;
 
     /*debug*/
@@ -85,8 +86,8 @@
 
 .blue {
     /*debug*/
-    
     background-color: lightblue;
+    flex-basis: 50%;
 }
 
 .red {
@@ -95,25 +96,50 @@
 }
 
 .second {
+    /*debug*/
     background-color: beige;
 }
 
 .green {
+    width: 80%;
+    height: 450px;
+
+
+    /*debug*/
     background-color: green;
+
 }
 
 .fourth {
+    /*debug*/
     background-color: lightgray;
 }
 
 .fifth {
+    /*debug*/
     background-color: lightblue;
 }
 
 .coral {
+    /*debug*/
     background-color: coral;
+    margin-left: 15%;
 }
 
 .aqua {
+    /*debug*/
     background-color: aquamarine;
+}
+
+.inverted {
+    order: -1;
+}
+
+.last {
+    margin-right: 15%;
+}
+
+/*footer rules*/
+footer {
+    min-height: 100px;
 }
