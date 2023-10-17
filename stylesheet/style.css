@@ -9,7 +9,7 @@
 /* Header rules */
 
 .row {
-    min-height: auto;
+    min-height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,6 +124,7 @@
     /*debug*/
     background-color: coral;
     margin-left: 15%;
+    flex-basis: 50%;
 }
 
 .aqua {
@@ -140,6 +141,17 @@
 }
 
 /*footer rules*/
-footer {
-    min-height: 100px;
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+    
+}
+
+#logo-footer {
+    margin-left: 10px;
+}
+
+#button-footer {
+    margin-right: 10px;
 }
